@@ -21,4 +21,12 @@ table td {
   border-radius: 10px;
   cursor: pointer;
 }
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
