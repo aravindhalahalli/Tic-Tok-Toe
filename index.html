@@ -7,9 +7,24 @@
     <title>Tik-Tok-Toe</title>
 </head>
 <body>
-    <h1><center>Tik-Tok-Toe-Game</center></h1>
-    <h1><center>Let's Play</center></h1>
-    <h1 id="player"><center>Now player X Turn...</center></h1>
+    <nav class="top-nav" id="top-nav">
+		<a href="#" class="logo"><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple62/v4/5b/d0/b5/5bd0b544-1c31-a6cc-7dce-2541b77684b7/mzm.lbbfhrrc.png/600x600wa.png" width="100px" height="70px" alt="Your Logo Here"></a>
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		<ul class="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+    </nav>
+    <header>
+        <!-- <h1><center>Tik-Tok-Toe-Game</center></h1> -->
+        <h1><center>Let's Play Tic-Tok-Toe Game</center></h1>
+        <h1 id="player"><center>Now player X Turn...</center></h1>
+    </header>
+    
+    <main>
     <table>
         <tr>
             <td id="r1" onclick="printx('1')"></td>
@@ -30,6 +45,7 @@
         </tr>
 
     </table>
+</main>
     <footer>
         <p>Aravind Kumar<br>
         <a href="mailto:aravindhalahalli.81@gmail.com">aravindhalahalli.81@gmail.com</a>
