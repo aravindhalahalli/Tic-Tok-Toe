@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(250, 248, 251);
+}
+h1{
+    cursor: pointer;
+}
+table{
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+    td{
+        width: 100px;
+        height: 100px;
+        background: rgb(100, 97, 97);
+        font-size: 40px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
